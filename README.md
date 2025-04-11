@@ -1,1 +1,4 @@
-# CoHNet
+# Better Coherence, Better Height: Fusing Physical Models and Deep Learning for Forest Height Estimation from Interferometric SAR Data (CVPR EarthVision 2025)
+
+# Abstract
+Estimating forest height from Synthetic Aperture Radar (SAR) images often relies on traditional physical models, which, while interpretable and data-efficient, can struggle with generalization. In contrast, Deep Learning (DL) approaches lack physical insight. To address this, we propose CoHNet - an end-to-end framework that combines the best of both worlds: DL optimized with physics-informed constraints. We leverage a pre-trained neural surrogate model to enforce physical plausibility through a unique training loss. Our experiments show that this approach not only improves forest height estimation accuracy but also produces meaningful features that enhance the reliability of predictions.
